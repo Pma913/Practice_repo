@@ -54,24 +54,24 @@
 3. print ew string(s)
 */
 
-var telNum = [6, 7, 8, 9, 0, 3, 4, 5, 6, 7]
+// var telNum = [6, 7, 8, 9, 0, 3, 4, 5, 6, 7]
 
-function phoneNum(ary) {
-    var combined = ary.join("");
-    for (var i = 0; i < 3; i++) {
-        var firstThree = `${combined[i]}${combined[i += 1]}${combined[i += 1]}`;
-        // return firstThree;
-    }
-    for (var i = 3; i < 6; i++) {
-        var secondThree = `${combined[i]}${combined[i += 1]}${combined[i += 1]}`;
-        // return `${firstThree}-${secondThree}`;
-    }
-    for (var i = 6; i < ary.length; i++) {
-        var lastFour = `${combined[i]}${combined[i += 1]}${combined[i += 1]}${combined[i += 1]}`
-    }
-    return `${firstThree}-${secondThree}-${lastFour}`;
-}
-console.log(phoneNum(telNum));
+// function phoneNum(ary) {
+//     var combined = ary.join("");
+//     for (var i = 0; i < 3; i++) {
+//         var firstThree = `${combined[i]}${combined[i += 1]}${combined[i += 1]}`;
+//         // return firstThree;
+//     }
+//     for (var i = 3; i < 6; i++) {
+//         var secondThree = `${combined[i]}${combined[i += 1]}${combined[i += 1]}`;
+//         // return `${firstThree}-${secondThree}`;
+//     }
+//     for (var i = 6; i < ary.length; i++) {
+//         var lastFour = `${combined[i]}${combined[i += 1]}${combined[i += 1]}${combined[i += 1]}`
+//     }
+//     return `${firstThree}-${secondThree}-${lastFour}`;
+// }
+// console.log(phoneNum(telNum));
 
 // function phoneNum(ary) {
 //     // var combined = ary.join("");
@@ -109,4 +109,5 @@ function phoneNum(ary) {
     return number;
 }
 
-phoneNum(telNum);
+// const printPhone = phoneNum(telNum);
+console.log(phoneNum(telNum));
