@@ -110,4 +110,4 @@ function phoneNum(ary) {
 }
 
 // const printPhone = phoneNum(telNum);
-console.log(phoneNum(telNum));
+// console.log(phoneNum(telNum));
